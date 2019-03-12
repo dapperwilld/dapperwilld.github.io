@@ -1,21 +1,42 @@
+<!DOCTYPE html> 
 <html> 
     <head> 
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 
-        <title>Example Student's HCDE 439 Physical Computing Page!</title> 
+        <title>Final Project!</title> 
 
         <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 
-    </head>	
-	<body>
-		<h1> Final Project</h1>
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Final Project!</h1>
+			<img src="final.gif" width=400>
+            <p>My Final Project is titled Headlights! here is the documentation	</p>
 			<p>
-			My final project will be a display that uses bubbles to excite bioluminescent algae<br>
-			it'll light up.....hopefully
+			Here is a picture of the circuit<br>
+			The circuit is two an LEDs in series with a 330k resistor along with a <br>
+			photoresistant sensor circuit. The circuit is mounted on a pair of sunglasses <br>
 			</p>
-			<img src="projectsketch.jpg" width=800>
+			<img src="finalcircuit.jpg" width=400>
 			<p>
-			
+			The circuit schematic. 
+			I used 2 red LEDs with voltage drop of 1.8v<br>
+			The resistor keeps the LEDs below their current threshold of 20mA<br>
+			5 - 1.8 = 3.2 / 330 = .009 A
+			</p>
+			<img src="finalschematic.jpg" width=400>
+			<p>
+			Here's my code<br>
+			The circuit takes an input value from the photoresistor circuit<br>
+			does some math with it and spits out an out put value that scales with how dark<br>
+			the ambient light is.
+			</p>
+			<img src="finalcode.JPG" width=800>
+
+        </div>
+        
     </body>
 </html>
